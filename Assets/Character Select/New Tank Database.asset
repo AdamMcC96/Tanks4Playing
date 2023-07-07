@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd06e48de0ac84147b151596ee774e3e, type: 3}
+  m_Name: New Tank Database
+  m_EditorClassIdentifier: 
+  tank:
+  - tankName: Classico
+    tankSprite: {fileID: 21300000, guid: 0d52c8de0068a0f40ba177b23ed7352d, type: 3}
+  - tankName: Lil Blue
+    tankSprite: {fileID: 21300000, guid: 141fc07280d6f9d45a01e1989c081634, type: 3}
+  - tankName: Comrade
+    tankSprite: {fileID: 21300000, guid: ae62fb9bc73d7404b9760a5fe7a3faa3, type: 3}
+  - tankName: Emerald
+    tankSprite: {fileID: 21300000, guid: 32707ef61f2caae43a38ede61ea9e4d6, type: 3}
+  - tankName: Sandstorm
+    tankSprite: {fileID: 21300000, guid: c03d52dd966a15e48ac6cfd26e9a70ae, type: 3}
+  - tankName: Big Red
+    tankSprite: {fileID: 21300000, guid: 0bfd6ec9191fcb84799957568d4228ac, type: 3}
+  - tankName: Old Grey
+    tankSprite: {fileID: 21300000, guid: 78f853fe4dedba341887cc02ea1f2dbf, type: 3}
+  - tankName: Chonker
+    tankSprite: {fileID: 21300000, guid: 981263534d0232f4b9a4bc015bba43f1, type: 3}

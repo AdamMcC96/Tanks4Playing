@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Character
+public class Tank
 {
-    public string characterName;
-    public Sprite characterSprite;
+    public string tankName;
+    public Sprite tankSprite;
 }
