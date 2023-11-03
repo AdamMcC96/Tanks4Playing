@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 515461638}
   - component: {fileID: 515461637}
   - component: {fileID: 515461636}
+  - component: {fileID: 515461639}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -154,6 +155,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tankDB: {fileID: 11400000, guid: 4d0d2d0afacc8434e84d75a732928969, type: 2}
+  rb: {fileID: 0}
+  runSpeed: 5
   artorkSprite: {fileID: 515461637}
 --- !u!212 &515461637
 SpriteRenderer:
@@ -222,6 +225,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &515461639
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515461635}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
